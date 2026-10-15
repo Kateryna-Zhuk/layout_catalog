@@ -63,7 +63,7 @@
     font-weight: 400;
     font-size: 10px;
     line-height: 14px;
-    color: #616070;
+    color: $black-color;
     margin-top: 4px;
     margin-bottom: 0;
     padding: 0 $padding-side;
@@ -99,7 +99,7 @@
       font-weight: 400;
       font-size: 12px;
       line-height: 18px;
-      color: #616070;
+      color: $black-color;
     }
 
     &-tag {
@@ -146,8 +146,8 @@
       border-color: $button-color;
     }
   }
-}
 
-.card:hover .card__title {
-  color: #34568b;
+  &:hover .card__title {
+    color: $card-title-color;
+  }
 }
